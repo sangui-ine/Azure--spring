@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AzureSpringApplication {
 	@GetMapping("/message")
 	public String message() {
-		return "Congrats ! your apppp is deployed!";
+		return "Congrats !! your apppp is deployed successfully!";
 	}
 
 	public static void main(String[] args) {
